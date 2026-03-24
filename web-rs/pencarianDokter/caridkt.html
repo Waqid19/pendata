@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medika Nusantara - Pencarian Dokter</title>
+    <link rel="stylesheet" href="caridkt.css">
+</head>
+<body>
+
+    <nav class="navigasi-atas">
+        <div class="logo">
+            <img src="../logo.png" alt="Logo" class="logo-g">
+            <span>Medika Nusantara</span>
+        </div>
+        <div class="tautan-navigasi">
+            <a href="#">Berita</a>
+            <a href="#">Kontak</a>
+            <a href="#">Jadwal</a>
+            <div class="ikon-navigasi">
+                <img src="notif.png" alt="Notif" class="ikon2">
+                <div class="profil-pengguna">
+                    <img src="avatar.png" alt="Avatar" class="ikon">
+                    <span>Budi Santoso</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1>Pencarian Dokter</h1>
+
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <div class="filter-group">
+                    <h3>Spesialisasi</h3>
+                    <label><input type="checkbox"> Anak</label>
+                    <label><input type="checkbox"> Jantung</label>
+                    <label><input type="checkbox"> Mata</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Hari Praktik</h3>
+                    <label><input type="checkbox"> Senin</label>
+                    <label><input type="checkbox"> Selasa</label>
+                    <label><input type="checkbox"> Rabu</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Jam</h3>
+                    <label><input type="checkbox"> Pagi</label>
+                    <label><input type="checkbox"> Sore</label>
+                </div>
+            </aside>
+
+            <section class="results-area">
+                <div class="search-bar">
+                    <input type="text" placeholder="Cari Nama Dokter atau Spesialisasi...">
+                </div>
+
+                <div class="doctor-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-info">
+                            <div class="doctor-photo"></div>
+                            <div>
+                                <h2>Dr. Andi Pratama</h2>
+                                <p>Spesialis Anak</p>
+                            </div>
+                        </div>
+                        <div class="schedule">
+                            <span>Senin & Rabu, 09:00-12:00</span>
+                        </div>
+                        <button class="btn-appointment">Buat Janji Temu</button>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-info">
+                            <div class="doctor-photo"></div>
+                            <div>
+                                <h2>Dr. Citra Dewi</h2>
+                                <p>Mata</p>
+                            </div>
+                        </div>
+                        <div class="schedule">
+                            <span>Senin & Rabu, 09:00-12:00</span>
+                        </div>
+                        <button class="btn-appointment">Buat Janji Temu</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>

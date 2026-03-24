@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #2c5282;
+    font-size: 1.2rem;
+}
+
+.logo-g {
+    height: 60px;
+    width: 60px;
+}
+
+body {
+    background-color: #cff1fd;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Logo & Typography */
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #444;
+    margin-top: 25px;
+}
+
+/* Layout Form */
+.main-content {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.form-section { flex: 2; }
+.upload-section { flex: 1; }
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* Elements */
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+/* Upload Box */
+.upload-box {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.drop-zone {
+    border: 2px dashed #cbd5e0;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.user-icon { font-size: 50px; color: #a0aec0; width: 70px; height: 70px;}
+
+/* Buttons */
+.button-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background: #3182ce;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 2;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-secondary {
+    background: #718096;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;  
+}

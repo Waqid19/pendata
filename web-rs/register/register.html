@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Pasien - Medika Nusantara</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="../logo.png" alt="Logo" class="logo-g">
+                <span>Medika Nusantara</span>
+            </div>
+        </header>
+
+        <h1>Pendaftaran Akun Baru - Pasien</h1>
+
+        <form class="main-content">
+            <div class="form-section">
+                <h3>Data Pribadi</h3>
+                
+                <div class="grid-2">
+                    <div class="input-group">
+                        <label>Username</label>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-group">
+                        <label>Pasword</label>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="input-group">
+                        <label>Nama Lengkap</label>
+                        <input type="text" placeholder="Nama Lengkap">
+                    </div>
+                    <div class="input-group">
+                        <label>NIK</label>
+                        <input type="text" placeholder="NIK-123456789000">
+                    </div>
+                    <div class="input-group">
+                        <label>Tanggal Lahir</label>
+                        <input type="date">
+                    </div>
+                    <div class="input-group">
+                        <label>Jenis Kelamin</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="jk" > Laki-Laki</label>
+                            <label><input type="radio" name="jk"> Perempuan</label>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Kontak</h3>
+                <div class="grid-2">
+                    <div class="input-group">
+                        <label>Nomor HP</label>
+                        <input type="text" placeholder="0123 456 7890">
+                    </div>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email__@gmail.com">
+                    </div>
+                </div>
+
+                <div class="input-group full-width">
+                    <label>Alamat Lengkap</label>
+                    <input type="text" placeholder="Alamat Lengkap">
+                </div>
+
+                <div class="button-group">
+                    <a href="../login/login.html" class="btn-primary">Daftar Sekarang</a>
+                    <a href="../landingpage/landingpage.html"><button type="button" class="btn-secondary">Batal</button></a>
+                </div>
+            </div>
+
+            <div class="upload-section">
+                <div class="upload-box">
+                    <p>Siapkan KTP Anda (Proses KYC)</p>
+                    <div class="drop-zone">
+                        <img src="avatar1.png" alt="avatar"class="user-icon"><br>
+                        <span>Unggah Foto KTP</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Medika Nusantara</title>
+    <link rel="stylesheet" href="dashbord.css">
+</head>
+<body>
+    <nav class="navigasi-atas">
+        <div class="logo">
+            <img src="../logo.png" alt="Logo" class="logo-g">
+            <span>Medika Nusantara</span>
+        </div>
+        <div class="tautan-navigasi">
+            <a href="#">Berita</a>
+            <a href="#">Kontak</a>
+            <a href="#">Jadwal</a>
+            <div class="ikon-navigasi">
+                <img src="notif.png" alt="Notif" class="ikon2">
+                <div class="profil-pengguna">
+                    <img src="avatar.png" alt="Avatar" class="ikon">
+                    <span>Budi Santoso</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tata-letak-utama">
+        <aside class="bilah-sisi">
+            <ul>
+                <li class="aktif"> Dashboard</li>
+                <li> Profil</li>
+                <li> Janji Temu</li>
+                <li> Rekam Medis</li>
+                <li> Pembayaran</li>
+                <li><a href="../pencarianDokter/caridkt.html" class="link">Cari Dokter</a></li>
+            </ul>
+        </aside>
+
+        <main class="konten-utama">
+            <h1>Budi Santoso</h1>
+
+            <div class="grid-dashboard">
+                <div class="kartu">
+                    <h3>Jadwal Kontrol Terdekat</h3>
+                    <div class="info-dokter">
+                        <div class="foto-dr">
+                            <img src="avatar1.png" alt="Avatar" class="ikon1">
+                        </div>
+                        <div class="teks-dr">
+                            <strong>Dr. Andi Pratama (Anak)</strong>
+                            <p>30 maret 2026, 10:00 WIB</p>
+                        </div>
+                    </div>
+                    <button class="tombol-pesanan">Detail Booking</button>
+                </div>
+
+                <div class="kartu">
+                    <div class="kepala-kartu">
+                        <h3>Pesan Terbaru</h3>
+                        <span><button type="button" class="tombol-pilihan">•••</button></span>
+                    </div>
+                    <div class="item-pesan">
+                        <div class="ikon-pesan biru">
+                            <img src="lab.png" alt="Avatar" class="ikon2">
+                        </div>
+                        <div class="teks-pesan">
+                            <strong>Hasil Lab Tersedia</strong>
+                            <p>Berdasarkan hasil laboratorium, kesehatan si keci sangat baik.</p>
+                        </div>
+                    </div>
+                    <div class="item-pesan">
+                        <div class="ikon-pesan biru-muda">
+                            <img src="faksin.png" alt="Avatar" class="ikon2">
+                        </div>
+                        <div class="teks-pesan">
+                            <strong>Pengingat Vaksinasi</strong>
+                            <p>Jadwal vaksinasi berikutnya untuk si kecil sudah dekat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu lebar-penuh">
+                <div class="kepala-kartu">
+                    <h3>Riwayat Terakhir</h3>
+                    <a href="#" class="lihat-semua">Lihat Semua Riwayat</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
