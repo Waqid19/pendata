@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: pendahuluan
+- file: pertemuan_1
+  sections:
+    - file: eksplorasi_data
+    - file: description_data
+    - file: visualisasi_data
+- file: pertemuan_2
+  sections:
+    - file: mengukur_jarak
+- file: pertemuan_3
+  sections:
+    - file: normalisasi_data
+- file: pertemuan_4
+  sections:
+    - file: UTS# Table of contents
+
